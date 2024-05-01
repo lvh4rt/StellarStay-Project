@@ -3,3 +3,9 @@ body {
     font-family: Comfortaa;
 }
 
+flexboxHotelDetails {
+    display: flex;
+    flex-direction: row;
+    background-color: #8676a9;
+    color: white;
+}
