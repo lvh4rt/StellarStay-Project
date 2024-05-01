@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.homepagePlanets {
+
+}
+
+.planetsHome {
+    display: flex;    
+}
+
+.planetSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.indPlanet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.indPlanet img {
+    /* width: 20%; */
+}
+
