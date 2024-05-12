@@ -1,6 +1,6 @@
-#form{background-color: yellow;
-    width: 25rem;
+#form{background-color: #b5a5db;
     padding: 1rem;
+    font-family: Comfortaa;
 
 }
 
@@ -8,7 +8,10 @@ input{
     outline: none;
     border: none;
     padding: 3px;
+    background: no;
 }
+
+label{background: none;}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -55,5 +58,11 @@ input::-webkit-inner-spin-button {
     align-items: center;
 
 }
+
+h3,h2,h4{
+    background:none;
+    font-family: Comfortaa;
+}
+
 
 span{font-size: 20px;}

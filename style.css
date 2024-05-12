@@ -30,7 +30,7 @@ header {
 
 /* #screen-1 */
 #screen-1{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 
 /* SCREEN 2 */
@@ -44,9 +44,6 @@ header {
 #screen-3 {
     background: red;
 }
-
-
-
 
 
 /* FOOTER NAVIGATION */
