@@ -16,9 +16,15 @@ p {
     font-weight: bold;
 }
 
-.priceContainer {
+.hoteldetailscontainer2a {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+.hoteldetailscontainer2b {
+    display: flex;
+    flex-direction: column;
 }
 
 .listContainer {
