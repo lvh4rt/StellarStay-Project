@@ -25,6 +25,7 @@ p {
 .hoteldetailscontainer2b {
     display: flex;
     flex-direction: column;
+    background-color: rgba(248, 224, 248, 1);
 }
 
 .listContainer {
