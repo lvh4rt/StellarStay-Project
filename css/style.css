@@ -9,3 +9,7 @@ flexboxHotelDetails {
     background-color: #8676a9;
     color: white;
 }
+
+p {
+    font-weight: bold;
+}
