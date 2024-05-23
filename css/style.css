@@ -16,20 +16,50 @@ p {
     font-weight: bold;
 }
 
+pricebold {
+    font-weight: bold;
+    font-size: large;
+}
+
+pricesmall {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.hotelimage {
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hoteldetailscontainer2a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .hoteldetailscontainer2b {
     display: flex;
     flex-direction: column;
-    background-color: rgba(248, 224, 248, 1);
+    background-color: #8676a9;
 }
 
 .listContainer {
     background-color: #8676a9;
+}
+
+.booknowdiv {
+    background-color: #8676a9;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
 }
 
 ul {
