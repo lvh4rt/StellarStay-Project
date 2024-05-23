@@ -66,3 +66,10 @@ h3,h2,h4{
 
 
 span{font-size: 20px;}
+
+.form
+{margin-top: 20px;
+    background-color: #b5a5db;
+    padding: 1rem;
+    font-family: Comfortaa;
+}
