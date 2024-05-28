@@ -48,24 +48,3 @@ header {
 
 /* FOOTER NAVIGATION */
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    height: 60px;
-    padding: 0 5rem;
-    background-color: grey;
-    width: 100%;
-    max-width: 700px;
-}
-
-.nav-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 0.8rem;
-}
