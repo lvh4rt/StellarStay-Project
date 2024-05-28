@@ -46,6 +46,12 @@ header h3 {
 
 }
 
+.link {
+    color: black; 
+    text-decoration: none;
+    background-color: transparent; 
+}
+
 .indPlanet img{
     width: 45%;   
     padding: 0.3rem;
