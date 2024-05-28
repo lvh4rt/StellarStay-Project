@@ -182,6 +182,10 @@ background-color: #695B88;
     width: 80%;
 }
 
+.planetHotel {
+    margin: 0.5rem;
+}
+
 .star {
     display: flex;
     flex-direction: row;
@@ -190,4 +194,25 @@ background-color: #695B88;
 .hotelflex {
     display: flex;
     flex-direction: row;
+}
+
+.hotel {
+    background-color: #979cf5;    
+    padding: 1rem;
+    width:50%;
+}
+
+.hotel p {
+    font-size: 12px;
+}
+
+.information {
+    background-color: #5458a3;
+    width:20%;
+    padding: 1rem;
+}
+
+.information p {
+    font-size: 12px;
+    padding: 0.3rem;
 }
