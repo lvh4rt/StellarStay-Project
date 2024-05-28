@@ -179,11 +179,20 @@ background-color: #695B88;
 /* PLANET STYLES */
 
 .planetHotel img {
-    width: 80%;
+    width: 90%;
+    margin: 1rem;
 }
 
 .planetHotel {
-    margin: 0.5rem;
+    margin: 1.5rem;
+    background-color: #695B88;
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
 }
 
 .star {
@@ -198,8 +207,10 @@ background-color: #695B88;
 
 .hotel {
     background-color: #979cf5;    
-    padding: 1rem;
-    width:50%;
+    padding: 0.8rem;
+    width:55%;
+    margin: 0 0.8rem 0.8rem 0.8rem ;
+
 }
 
 .hotel p {
@@ -209,10 +220,22 @@ background-color: #695B88;
 .information {
     background-color: #5458a3;
     width:20%;
-    padding: 1rem;
+    padding: 0.8rem ;
+    margin: 0 0.8rem 0.8rem 0;
 }
 
 .information p {
     font-size: 12px;
     padding: 0.3rem;
+}
+
+.information h3 {
+    font-size: 15px;
+    padding: 0.3rem;
+    font-weight: 600;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
 }
