@@ -181,3 +181,13 @@ background-color: #695B88;
 .planetHotel img {
     width: 80%;
 }
+
+.star {
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelflex {
+    display: flex;
+    flex-direction: row;
+}
