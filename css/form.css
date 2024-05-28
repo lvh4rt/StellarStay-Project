@@ -1,3 +1,7 @@
+main{padding: 20px;
+    padding-bottom: 50px;
+}
+
 input{
     outline: none;
     border: none;
@@ -30,7 +34,7 @@ span{font-size: 20px;}
 
 #email{width: 100%;}
 
-#number{width: 88%;}
+#number{width: 84.7%;}
 
 #numNation{
     width: 10%;
@@ -52,7 +56,6 @@ span{font-size: 20px;}
 }
 #lstName{
     width: 100%;
-    border: red solid 1px;
 }
     
 
@@ -129,10 +132,10 @@ span{font-size: 20px;}
 #submit{
 padding: 10px;
 background-color:#0A0D4B;
-
 font-size: 30px;
 text-align: center;
 margin-top: 20px;
+margin-bottom: 20px;
 }
 
 #submit a{color: #ffffff;
