@@ -4,10 +4,6 @@
     font-family: 'Comfortaa';
 }
 
-/* .homepagePlanets {
-
-} */
-
 
 header{
     display: flex;
@@ -108,6 +104,9 @@ background-color: #695B88;
 
 }
 
+
+/* BOOKING CONFIRMATION  */
+
 .thankYou h2, .thankYou p{
     padding: 0.3rem;
 }
@@ -124,4 +123,53 @@ background-color: #695B88;
 
 #tyh2 {
     padding-bottom: 1rem;
+}
+
+
+/* PROFILE  */
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user h2 {
+    padding-bottom: 1rem;
+}
+
+.user svg {
+    padding: 1.2rem;
+}
+
+/* BUTTONS SECTION */
+
+.profileButtons {
+    display: flex;   
+    justify-content: center; 
+    margin: 0.75rem;
+    flex-direction: column;
+}
+
+.indButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem 0;
+    margin: 0.8rem;
+    background-color: #EEECF9 ;
+    border-radius: 25px;
+
+}
+
+.indButton svg{
+    padding: 0.5rem 1rem;
+}
+
+.indButton h3 {
+    padding: 1rem 1rem 1rem 0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
 }
