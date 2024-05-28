@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+/* .homepagePlanets {
+
+} */
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 12%;
+    padding-right: 3rem;
+}
+
+header h3 {
+    padding: 1.5rem 1.5rem 1.5rem 0.75rem;
+    font-size: 10px;
+}
+
+.planetsHome {
+    display: flex;   
+    justify-content: center; 
+    margin: 0.75rem;
+}
+
+.planetSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.indPlanet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem 0;
+    margin: 0.5rem;
+    background-color: #EEECF9 ;
+    border-radius: 35px;
+
+}
+
+.indPlanet img{
+    width: 45%;   
+    padding: 0.3rem;
+}
+
+.indPlanet h3 {
+    padding: 1rem 0.75rem 1rem 0;
+    font-size: 13px;
+}
+
+
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: #8776AC;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.navbar a img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+.navbar a {
+padding: 10px;
+}
+
+  
+/* Change the color of links on hover */
+.navbar a:hover {
+background-color: #695B88;
+color: #0A0D4B;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+background-color: #695B88;
+}
+
+.thankYou {
+    background-color: #8776AC;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.thankYou h2, .thankYou p{
+    padding: 0.3rem;
+}
+
+
+.thankYou img {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+#keep {
+    font-size: 12px;
+}
+
+#tyh2 {
+    padding-bottom: 1rem;
+}
+.SearchQueryboxhorizontal {
+    background-color: #0A0D4B;
+    display: flex;
+    flex-direction: row;
+}
