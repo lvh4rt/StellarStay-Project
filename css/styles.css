@@ -95,3 +95,33 @@ color: #0A0D4B;
 .navbar a.active {
 background-color: #695B88;
 }
+
+.thankYou {
+    background-color: #8776AC;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.thankYou h2, .thankYou p{
+    padding: 0.3rem;
+}
+
+
+.thankYou img {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+#keep {
+    font-size: 12px;
+}
+
+#tyh2 {
+    padding-bottom: 1rem;
+}
