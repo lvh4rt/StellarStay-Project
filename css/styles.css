@@ -175,3 +175,9 @@ background-color: #695B88;
     letter-spacing: 0.5px;
     font-weight: 400;
 }
+
+/* PLANET STYLES */
+
+.planetHotel img {
+    width: 80%;
+}
