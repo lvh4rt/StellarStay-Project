@@ -3,7 +3,7 @@ body {
     font-family: Comfortaa;
 }
 
-flexboxHotelDetails {
+.flexboxHotelDetails {
     display: flex;
     flex-direction: row;
     background-color: #8676a9;
@@ -16,12 +16,12 @@ p {
     font-weight: bold;
 }
 
-pricebold {
+.pricebold {
     font-weight: bold;
     font-size: large;
 }
 
-pricesmall {
+.pricesmall {
     font-weight: lighter;
     font-size: small;
 }
