@@ -249,3 +249,24 @@ background-color: #695B88;
     display: flex;
     justify-content: center;
 }
+
+.neptuneheroImage {
+    background-image: url("../img/neptune-bg.png");
+    background-size: cover;
+    padding: 2rem;
+}
+
+.planetInfo {
+    background-color: rgba(169, 169, 169, 0.5);
+    width: 60%;
+    padding: 0.5rem 1rem;
+}
+
+.planetTitle {
+    color: white;
+}
+
+.planetInfo p {
+    color: white;
+    font-size: 20px;
+}
