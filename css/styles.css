@@ -283,6 +283,12 @@ background-color: #695B88;
     font-size: 14px;
 }
 
+#keep1 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
 
 .neptuneheroImage {
     background-image: url("../img/neptune-bg.webp");
