@@ -9,17 +9,72 @@ body {
     font-family: Comfortaa;
 }
 
-flexboxHotelDetails {
+.flexboxHotelDetails {
     display: flex;
     flex-direction: row;
     background-color: #8676a9;
     color: white;
 }
 
-.hotelimage {
-    justify-content: center;
-    width: 1600;
-    height: 800;
+/* Hotels Section */
+
+p {
+    font-weight: bold;
 }
 
+.pricebold {
+    font-weight: bold;
+    font-size: large;
+}
 
+.pricesmall {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.hotelimage {
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hoteldetailscontainer2a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hoteldetailscontainer2b {
+    display: flex;
+    flex-direction: column;
+    background-color: #8676a9;
+}
+
+.listContainer {
+    background-color: #8676a9;
+}
+
+.booknowdiv {
+    background-color: #8676a9;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/* Hotels Section */
