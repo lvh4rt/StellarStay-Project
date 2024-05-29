@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';    
+    font-weight: 100;
+
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 12%;
+    padding-right: 3rem;
+}
+
+header h3 {
+    padding: 1.5rem 1.5rem 1.5rem 0.75rem;
+    font-size: 10px;
+}
+
+.planetsHome {
+    display: flex;   
+    justify-content: center; 
+    margin: 0.75rem;
+}
+
+.planetSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.indPlanet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem 0;
+    margin: 0.5rem;
+    background-color: #EEECF9 ;
+    border-radius: 35px;
+
+}
+
+.link {
+    color: black; 
+    text-decoration: none;
+    background-color: transparent; 
+}
+
+.indPlanet img{
+    width: 45%;   
+    padding: 0.3rem;
+}
+
+.indPlanet h3 {
+    padding: 1rem 0.75rem 1rem 0;
+    font-size: 13px;
+}
+
+
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: #8776AC;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.navbar a img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+.navbar a {
+padding: 10px;
+}
+
+  
+/* Change the color of links on hover */
+.navbar a:hover {
+background-color: #695B88;
+color: #0A0D4B;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+background-color: #695B88;
+}
+
+.thankYou {
+    background-color: #8776AC;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+
+/* BOOKING CONFIRMATION  */
+
+.thankYou h2, .thankYou p{
+    padding: 0.3rem;
+}
+
+
+.thankYou img {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+#keep {
+    font-size: 12px;
+}
+
+#tyh2 {
+    padding-bottom: 1rem;
+}
+
+
+/* PROFILE  */
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user h2 {
+    padding-bottom: 1rem;
+}
+
+.user svg {
+    padding: 1.2rem;
+}
+
+/* BUTTONS SECTION */
+
+.profileButtons {
+    display: flex;   
+    justify-content: center; 
+    margin: 0.75rem;
+    flex-direction: column;
+}
+
+.indButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem 0;
+    margin: 0.8rem;
+    background-color: #EEECF9 ;
+    border-radius: 25px;
+
+}
+
+.indButton svg{
+    padding: 0.5rem 1rem;
+}
+
+.indButton h3 {
+    padding: 1rem 1rem 1rem 0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+/* PLANET STYLES */
+
+.planetHotel img {
+    width: 90%;
+    margin: 1rem;
+    border-radius: 25px;
+}
+
+.planetHotel {
+    margin: 1.3rem;
+    background-color: #CCC0E5;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.hotel {
+    background-color: white;    
+    padding: 0.8rem;
+    width:57%;
+    margin: 0 0.8rem 0.8rem 1rem ;
+    border-radius: 25px;
+}
+
+.hotel p {
+    font-size: 12px;
+}
+
+.information {
+    background-color: white;
+    width:25%;
+    padding: 0.8rem ;
+    margin: 0 1rem 0.8rem 0;
+    border-radius: 25px;
+}
+
+.information p {
+    font-size: 13px;
+    padding: 0.4rem;
+}
+
+.information h3 {
+    font-size: 15px;
+    margin: 0.3rem;
+    font-weight: 600;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* current bookings */
+
+#pic {
+    width: 30%;
+    border-radius: 16px;
+    margin: 0.6rem;
+}
+
+.picBooking {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem 0;
+    margin: 0.8rem;
+    background-color: #EEECF9 ;
+    border-radius: 25px;
+
+}
+.neptuneheroImage {
+    background-image: url("../img/neptune-bg.png");
+    background-size: cover;
+    padding: 2rem;
+}
+
+.planetInfo {
+    background-color: rgba(169, 169, 169, 0.5);
+    width: 65%;
+    padding: 0.5rem 1rem;
+}
+
+.planetTitle {
+    color: white;
+}
+
+.planetInfo p {
+    color: white;
+    font-size: 17px;
+}
