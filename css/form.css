@@ -143,6 +143,8 @@ span{font-size: 20px;}
 #code h4{
     padding: 0.6rem;
     margin-bottom: 0.3rem;
+    align-items: center;
+    margin-top: 5px;
 }
 
 
@@ -164,6 +166,7 @@ span{font-size: 20px;}
 }
 
 
+#form3 h3{margin-bottom:10px;}
 
 
 #luxPackage{
@@ -212,3 +215,10 @@ border-radius: 20px;
 #submit:hover {
     background-color: #1e215f;
   }
+
+
+.duplicated-form{margin-top: 10px;}
+
+.duplicated-form #addPerson{display: none;}
+
+#id1{margin-top: 10px;}
