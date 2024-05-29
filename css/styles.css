@@ -15,12 +15,12 @@ header{
 
 header img {
     width: 12%;
-    padding-right: 3rem;
+    padding: 0 1.7rem;
 }
 
 header h3 {
-    padding: 1.5rem 1.5rem 1.5rem 0.75rem;
-    font-size: 10px;
+    padding: 1.5rem 1.8rem 1.5rem 0.75rem;
+    font-size: 13px;
 }
 
 .planetsHome {
@@ -263,12 +263,33 @@ background-color: #695B88;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.4rem 0;
+    padding: 0.3rem 0.3rem;
     margin: 0.8rem;
     background-color: #EEECF9 ;
     border-radius: 25px;
 
 }
+
+.book {
+    padding: 0.3rem;
+}
+
+.book h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.book p{
+    font-size: 14px;
+}
+
+#keep1 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+
 .neptuneheroImage {
     background-image: url("../img/neptune-bg.webp");
     background-size: cover;
@@ -291,3 +312,5 @@ background-color: #695B88;
     font-size: 15px;
     padding: 0.3rem 0;
 }
+
+
