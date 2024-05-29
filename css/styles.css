@@ -198,6 +198,10 @@ background-color: #695B88;
     border-radius: 25px;
 }
 
+#hotellink {
+    text-decoration: none;
+    color: black;
+}
 
 .all {
     display: flex;
