@@ -249,3 +249,20 @@ background-color: #695B88;
     display: flex;
     justify-content: center;
 }
+
+/* This is the css code for the advanced navigation */
+
+.advnavboxvert {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A0D4B;
+    color: #EEECF9;
+}
+
+.advnavboxhorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}

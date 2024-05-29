@@ -6,12 +6,72 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#datepickerFrom" ).datepicker();
+    } );
+    $( function() {
+      $( "#datepickerTo" ).datepicker();
+    } );
+    </script>
 </head>
 <body>
 <header>
     <img src="img/logo.png" alt="logo">
     <h3>Go Beyond Earth; Sleep Among the Stars</h3>
 </header>
+
+<form>
+<div class="advnavboxvert">
+    <div class="advnavboxhorizontal">
+        <div>
+            <label for="advbkfrom"> From</label> <br>
+            <input type="datetime" id="from" name="advbkfrom"><br> <br>
+            <label for="advbkto"> To</label> <br> 
+            <input type="datetime" id="to" name="advbkto">
+        </div>
+        <div> 
+            <p>From: <input type="text" id="datepickerFrom"></p> <br>
+            <p>To: <input type="text" id="datepickerTo"></p>
+        </div>
+    </div>
+   <div class="advnavboxhorizontal">
+    <div>
+        <label for="selectdestination"> Destination</label> <br>
+        <select id="planetselect" name="selectdestination" size="1">
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptune">Neptune</option>
+            <option value="pluto">Pluto</option>
+        </select>
+    </div>
+    <div>
+        <label for="passengernum"> Passengers</label> <br>
+        <input type="number" id="passnum" name="passengernum">
+    </div>
+    <div>
+        <label for="selectclass"> Class</label> <br>
+        <select id="classselect" name="selectclass" size="1">
+            <option value="1st">1st Class</option>
+            <option value="2nd">2nd Class</option>
+            <option value="3rd">3rd Class</option>
+            <option value="steerage">Steerage</option>
+            
+        </select>
+    </div>
+
+   </div>
+   <input type="submit" value="submit"> 
+</div>
+</form>
 <hr>
     <!-- HOMEPAGE PLANET SECTION -->
     <section class="homepagePlanets">
