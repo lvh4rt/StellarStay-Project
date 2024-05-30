@@ -20,7 +20,7 @@ header img {
 
 header h3 {
     padding: 1.5rem 1.8rem 1.5rem 0.75rem;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .planetsHome {
@@ -338,7 +338,7 @@ body {
 /* Hotels Section */
 
 .hotel p {
-    font-weight: bold;
+    font-size: 12px;
 }
 
 .pricebold {
@@ -352,11 +352,16 @@ body {
 }
 
 .hotelimage {
-    width: 80%;
+    width: 89%;
     height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0.5rem;
+}
+
+.hotelInfo{
+    margin: 1.4rem;
 }
 
 .hoteldetailscontainer2a {
