@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    
     <script>
     $( function() {
       $( "#datepickerFrom" ).datepicker();
@@ -27,113 +28,114 @@
 
 <!-- This is the start of the Homepage section, this div will be visible first on loading -->
 <!-- This is also the advanced navigation box, it allows for more specific navigation -->
-<form>
-<div class="advnavboxvert">
-    <div class="advnavboxhorizontal">
-        <div>
-            <label for="advbkfrom"> From</label> <br>
-            <input type="datetime" id="from" name="advbkfrom"><br> <br>
-            <label for="advbkto"> To</label> <br> 
-            <input type="datetime" id="to" name="advbkto">
-        </div>
-        <div> 
-            <p>From: <input type="text" id="datepickerFrom"></p> <br>
-            <p>To: <input type="text" id="datepickerTo"></p>
-        </div>
-    </div>
-   <div class="advnavboxhorizontal">
-    <div>
-        <label for="selectdestination"> Destination</label> <br>
-        <select id="planetselect" name="selectdestination" size="1">
-            <option value="mercury">Mercury</option>
-            <option value="venus">Venus</option>
-            <option value="mars">Mars</option>
-            <option value="jupiter">Jupiter</option>
-            <option value="saturn">Saturn</option>
-            <option value="uranus">Uranus</option>
-            <option value="neptune">Neptune</option>
-            <option value="pluto">Pluto</option>
-        </select>
-    </div>
-    <div>
-        <label for="passengernum"> Passengers</label> <br>
-        <input type="number" id="passnum" name="passengernum">
-    </div>
-    <div>
-        <label for="selectclass"> Class</label> <br>
-        <select id="classselect" name="selectclass" size="1">
-            <option value="1st">1st Class</option>
-            <option value="2nd">2nd Class</option>
-            <option value="3rd">3rd Class</option>
-            <option value="steerage">Steerage</option>
-            
-        </select>
-    </div>
-
-   </div>
-   <input type="submit" value="submit"> 
-</div>
-</form>
-<hr>
-    <!-- HOMEPAGE PLANET SECTION -->
-    <section class="homepagePlanets">
-        <div class="planetsHome">
-
-            <div class="planetSection">
-                <div class="indPlanet"> 
-                    <img src="img/mercury.png" alt="">
-                    <h3> Mercury </h3>
+<section id="homepagesection">
+    <form>
+        <div class="advnavboxvert">
+            <div class="advnavboxhorizontal">
+                <div>
+                    <label for="advbkfrom"> From</label> <br>
+                    <input type="datetime" id="from" name="advbkfrom"><br> <br>
+                    <label for="advbkto"> To</label> <br> 
+                    <input type="datetime" id="to" name="advbkto">
                 </div>
-
-                <div class="indPlanet">
-                    <img src="img/venus.png" alt=""> 
-                    <h3> Venus</h3>
-                </div>
-
-                <a href="planetMars.html" class="link">
-                    <div class="indPlanet"> 
-                        <img src="img/mars.png" alt=""> 
-                        <h3> Mars</h3>
-                    </div>
-                </a>
-
-
-                <div class="indPlanet">
-                    <img src="img/jupiter.png" alt=""> 
-                    <h3> Jupiter</h3>
-                </div>
-
-            </div>
-
-            <div class="planetSection">
-                <div class="indPlanet"> 
-                    <img src="img/saturn.png" alt=""> 
-                    <h3> Saturn</h3>
-                </div>
-
-                <div class="indPlanet"> 
-                    <img src="img/uranus.png" alt=""> 
-                    <h3> Uranus</h3>
-                </div>
-
-                <a href="planetNeptune.html" class="link">
-                    <div class="indPlanet"> 
-                            <img src="img/neptune.png" alt=""> 
-                            <h3> Neptune</h3>
-                    </div>
-                </a>
-
-                <div class="indPlanet"> 
-                    <img src="img/pluto.png" alt=""> 
-                    <h3> Pluto </h3>
+                <div> 
+                    <p>From: <input type="text" id="datepickerFrom"></p> <br>
+                    <p>To: <input type="text" id="datepickerTo"></p>
                 </div>
             </div>
-
+           <div class="advnavboxhorizontal">
+            <div>
+                <label for="selectdestination"> Destination</label> <br>
+                <select id="planetselect" name="selectdestination" size="1">
+                    <option value="mercury">Mercury</option>
+                    <option value="venus">Venus</option>
+                    <option value="mars">Mars</option>
+                    <option value="jupiter">Jupiter</option>
+                    <option value="saturn">Saturn</option>
+                    <option value="uranus">Uranus</option>
+                    <option value="neptune">Neptune</option>
+                    <option value="pluto">Pluto</option>
+                </select>
+            </div>
+            <div>
+                <label for="passengernum"> Passengers</label> <br>
+                <input type="number" id="passnum" name="passengernum">
+            </div>
+            <div>
+                <label for="selectclass"> Class</label> <br>
+                <select id="classselect" name="selectclass" size="1">
+                    <option value="1st">1st Class</option>
+                    <option value="2nd">2nd Class</option>
+                    <option value="3rd">3rd Class</option>
+                    <option value="steerage">Steerage</option>
+                    
+                </select>
+            </div>
+        
+           </div>
+           <input type="submit" value="submit"> 
         </div>
-    </section>
-
+        </form>
+        <hr>
+            <!-- HOMEPAGE PLANET SECTION -->
+            <section class="homepagePlanets">
+                <div class="planetsHome">
+        
+                    <div class="planetSection">
+                        <div class="indPlanet"> 
+                            <img src="img/mercury.png" alt="">
+                            <h3> Mercury </h3>
+                        </div>
+        
+                        <div class="indPlanet">
+                            <img src="img/venus.png" alt=""> 
+                            <h3> Venus</h3>
+                        </div>
+        
+                        <a href="planetMars.html" class="link">
+                            <div class="indPlanet"> 
+                                <img src="img/mars.png" alt=""> 
+                                <h3> Mars</h3>
+                            </div>
+                        </a>
+        
+        
+                        <div class="indPlanet">
+                            <img src="img/jupiter.png" alt=""> 
+                            <h3> Jupiter</h3>
+                        </div>
+        
+                    </div>
+        
+                    <div class="planetSection">
+                        <div class="indPlanet"> 
+                            <img src="img/saturn.png" alt=""> 
+                            <h3> Saturn</h3>
+                        </div>
+        
+                        <div class="indPlanet"> 
+                            <img src="img/uranus.png" alt=""> 
+                            <h3> Uranus</h3>
+                        </div>
+        
+                        <a href="planetNeptune.html" class="link">
+                            <div class="indPlanet"> 
+                                    <img src="img/neptune.png" alt=""> 
+                                    <h3> Neptune</h3>
+                            </div>
+                        </a>
+        
+                        <div class="indPlanet"> 
+                            <img src="img/pluto.png" alt=""> 
+                            <h3> Pluto </h3>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+</section>
 <!-- This is where index ends and planet page starts -->
-
+<section id="showplanetsection">
 <hr>
 
    <!-- Planets section - Mark - Start -->
@@ -157,7 +159,7 @@
 
 </section>
 
-<!-- Planets section - Mark - End -->
+<!-- This -->
 
 
 <a id="hotellink" href="hotel.html">
@@ -224,9 +226,9 @@
         </div>
     </div>
 </section>
-
+</section>
 <!-- This is where planets end and Hotel page begins -->
-
+<section id="hotelsection">
 <img src="img/HotelExample.jpg" alt="A sci fi image of a hotel room" class="hotelimage">
 
     <p class="hotelp">
@@ -286,8 +288,9 @@
 <div class="booknowdiv">
   Book Now!
 </div>
+</section>
 <!-- This is the end of the hotel section, this is the start of the booking section -->
-
+<section id="bookingformsection">
 <div class="container">
     <main>
         <!-- SCREEN 1 -->
@@ -408,8 +411,9 @@
 
         <div id="submit"><a href="bookingConfirm.html">Confirm</a></div>
 
+</section>
 <!-- This is the end of the booking section, this is the start of the booking confirmation section -->
-
+<section id="bookingconfirmationsection">
 <section class="thankYou">
     <h2 id="tyh2">Thank you for booking with us!</h2>
     <p>Booking Reference: 3F86Hi845</p>
@@ -472,8 +476,9 @@
 
         </div>
     </section>
+</section>
 <!-- This is the end of the booking confirmation section, and this is the start of the bookings section -->
-
+<section id="currentbookingsection">
 <div class="picBooking"> 
     <img id="pic" src="img/hotelNeptune.webp" alt="">
     <div class="book">    
@@ -482,9 +487,9 @@
     </div>
 </div>
 <a href="index.html" id="keep1">Keep Searching for your next stellar stay-></a>
-
+</section>
 <!-- This is the end of the current bookings section, and the start of the profile section -->
-
+<section id="profilesection">
 <section class="user">
     <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#000000"><path d="M247.85-260.62q51-36.69 108.23-58.03Q413.31-340 480-340t123.92 21.35q57.23 21.34 108.23 58.03 39.62-41 63.73-96.84Q800-413.31 800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 66.69 24.12 122.54 24.11 55.84 63.73 96.84ZM480.02-460q-50.56 0-85.29-34.71Q360-529.42 360-579.98q0-50.56 34.71-85.29Q429.42-700 479.98-700q50.56 0 85.29 34.71Q600-630.58 600-580.02q0 50.56-34.71 85.29Q530.58-460 480.02-460ZM480-120q-75.31 0-141-28.04t-114.31-76.65Q176.08-273.31 148.04-339 120-404.69 120-480t28.04-141q28.04-65.69 76.65-114.31 48.62-48.61 114.31-76.65Q404.69-840 480-840t141 28.04q65.69 28.04 114.31 76.65 48.61 48.62 76.65 114.31Q840-555.31 840-480t-28.04 141q-28.04 65.69-76.65 114.31-48.62 48.61-114.31 76.65Q555.31-120 480-120Zm0-40q55.31 0 108.85-19.35 53.53-19.34 92.53-52.96-39-31.31-90.23-49.5Q539.92-300 480-300q-59.92 0-111.54 17.81-51.61 17.81-89.84 49.88 39 33.62 92.53 52.96Q424.69-160 480-160Zm0-340q33.69 0 56.85-23.15Q560-546.31 560-580t-23.15-56.85Q513.69-660 480-660t-56.85 23.15Q400-613.69 400-580t23.15 56.85Q446.31-500 480-500Zm0-80Zm0 350Z"/></svg>
     <h2>Mike Oxlong</h2>
@@ -526,6 +531,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#000000"><path d="M224.62-160q-27.62 0-46.12-18.5Q160-197 160-224.62v-510.76q0-27.62 18.5-46.12Q197-800 224.62-800h256.15v40H224.62q-9.24 0-16.93 7.69-7.69 7.69-7.69 16.93v510.76q0 9.24 7.69 16.93 7.69 7.69 16.93 7.69h256.15v40H224.62Zm433.84-178.46-28.08-28.77L723.15-460H367.69v-40h355.46l-92.77-92.77 28.08-28.77L800-480 658.46-338.46Z"/></svg>
         <h3> Log out </h3>
     </div>
+</section>
 <!-- This is the end of the profile section -->
 
 

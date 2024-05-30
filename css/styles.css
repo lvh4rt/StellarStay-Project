@@ -414,3 +414,33 @@ ul {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+/* This section contains the divs for hiding and showing the different pages */
+
+#homepagesection {
+    display: show;
+}
+
+#showplanetsection {
+    display: none;
+}
+
+#hotelsection {
+    display: none;
+}
+
+#bookingformsection {
+    display: none;
+}
+
+#bookingconfirmationsection {
+    display: none;
+}
+
+#currentbookingsection {
+    display: none;
+}
+
+#profilesection {
+    display: none;
+}
