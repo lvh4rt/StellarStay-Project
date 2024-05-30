@@ -32,7 +32,7 @@ span{font-size: 20px;}
 #form{
     padding: 0.5rem 0.5rem 1.2rem 0.5rem;
     font-family: Comfortaa;
-    background-color: #8a7bdf;
+    background-color: #EEECF9;
     border-radius: 20px;
 }
 
@@ -40,12 +40,16 @@ span{font-size: 20px;}
     margin: 0.6rem;
 }
 
-#email{width: 97%;}
+#email{
+    width: 94%;
+    margin: 0.6rem;
+}
 
-#number{width: 84.3%;}
+#number{width: 82.8%;}
 
 #numNation{
-    width: 10%;
+    width: 7%;
+    margin: 0.3rem 0.3rem 0.3rem 0.6rem;
 }
 
 
@@ -54,7 +58,7 @@ span{font-size: 20px;}
 #form2{
     padding: 0.5rem 0.5rem 1.2rem 0.5rem;
     font-family: Comfortaa;
-    background-color: #8e81da;
+    background-color: #EEECF9;
     margin-top: 10px;
     border-radius: 20px;
 }
@@ -75,7 +79,11 @@ span{font-size: 20px;}
 #nameContainer{
     display:flex;
     flex-direction: row;
-  
+    margin: 0.6rem;
+}
+
+#nameContainer h4{
+    margin: 0.6rem 0.1rem;
 }
 
 
@@ -83,36 +91,74 @@ span{font-size: 20px;}
 
 
 #form3{
-    padding: 1rem;
+    padding: 0.5rem 0.5rem 1.2rem 0.5rem;
     font-family: Comfortaa;
     background-color: #EEECF9;
     margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+#form3 h3 {
+    margin: 0.6rem;
+}
+
+#exp {
+    margin: 0.6rem;    
+}
+
+#exp {
+    display: flex;
+    flex-direction: column;   
+}
+
+#threebox {
+    display: flex;
+    flex-direction: row;  
 }
 
 #dobContainer{
     display:flex;
+}
+
+#dob {
+    margin:0.6rem ;
+}
+
+#dateBirth1{
+    width: 1.7rem;
+    margin: 0.4rem 0.4rem 0.4rem 0.6rem;
+}
+
+#dateBirth2{    
+    width: 1.7rem;
+    margin: 0.4rem;
+}
+
+#dateBirth3{
+    width: 1.7rem;
+    margin: 0.4rem;
+}
+
+#code h4{
+    padding: 0.6rem;
+    margin-bottom: 0.3rem;
     align-items: center;
+    margin-top: 5px;
 }
 
 
-
-#dateBirth1{width: 2rem;
-    margin-right: 1rem;
+#sec{
+    margin: 0 0.7rem;
 }
-
-#dateBirth2{width: 2rem;
-    margin-right: 1rem;
-}
-
-#dateBirth3{width: 2rem;
-    margin-right: 1rem;}
 
 #addPerson{
     background-color: #8676A9;
     color: white;
-    padding: 0.1rem;
-    width: 60%;
-
+    padding: 0.3rem;
+    width: 55%;
+    margin: 0 0.4rem;
+    border-radius: 20px;
 }
 
 #addPerson h4,span{
@@ -120,26 +166,37 @@ span{font-size: 20px;}
 }
 
 
+#form3 h3{margin-bottom:10px;}
 
 
 #luxPackage{
-    background-color: #554577;
+    background-color: #43305C;
     color: white;
     font-family: Comfortaa;
-    padding: 10px;
+    padding: 15px;
     margin-top: 10px;
+    border-radius: 20px;
 }
 
 
 
 
 #form4{
-    padding: 1rem;
+    padding: 0.8rem;
     font-family: Comfortaa;
     background-color: #CCC0E5;
     margin-top: 10px;
+    border-radius: 20px;
 }
 
+#form4 h3, #form4 h4 {
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+#bold {
+    font-weight: 700;
+}
 
 #submit{
 padding: 10px;
@@ -148,6 +205,7 @@ font-size: 30px;
 text-align: center;
 margin-top: 20px;
 margin-bottom: 20px;
+border-radius: 20px;
 }
 
 #submit a{color: #ffffff;
@@ -157,3 +215,10 @@ margin-bottom: 20px;
 #submit:hover {
     background-color: #1e215f;
   }
+
+
+.duplicated-form{margin-top: 10px;}
+
+.duplicated-form #addPerson{display: none;}
+
+#id1{margin-top: 10px;}

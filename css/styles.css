@@ -15,12 +15,12 @@ header{
 
 header img {
     width: 12%;
-    padding-right: 3rem;
+    padding: 0 1.7rem;
 }
 
 header h3 {
-    padding: 1.5rem 1.5rem 1.5rem 0.75rem;
-    font-size: 10px;
+    padding: 1.5rem 1.8rem 1.5rem 0.75rem;
+    font-size: 13px;
 }
 
 .planetsHome {
@@ -185,7 +185,7 @@ background-color: #695B88;
 /* PLANET STYLES */
 
 .planetHotel img {
-    width: 100%;
+    width: 90%;
     margin: 1rem;
     border-radius: 25px;
 }
@@ -198,6 +198,10 @@ background-color: #695B88;
     border-radius: 25px;
 }
 
+#hotellink {
+    text-decoration: none;
+    color: black;
+}
 
 .all {
     display: flex;
@@ -249,6 +253,150 @@ background-color: #695B88;
     display: flex;
     justify-content: center;
 }
+
+
+/* current bookings */
+
+#pic {
+    width: 30%;
+    border-radius: 16px;
+    margin: 0.6rem;
+}
+
+.picBooking {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.3rem 0.3rem;
+    margin: 0.8rem;
+    background-color: #EEECF9 ;
+    border-radius: 25px;
+
+}
+
+.book {
+    padding: 0.3rem;
+}
+
+.book h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.book p{
+    font-size: 14px;
+}
+
+#keep1 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.neptuneheroImage {
+    background-image: url("../img/neptune-bg.webp");
+    background-size: cover;
+    padding: 2rem;
+}
+
+.planetInfo {
+    background-color: rgba(169, 169, 169, 0.5);
+    width: 65%;
+    padding: 0.5rem 1rem;
+}
+
+.planetTitle {
+    color: white;
+    padding: 0.6rem 0;
+}
+
+.planetInfo p {
+    color: white;
+    font-size: 15px;
+    padding: 0.3rem 0;
+}
+
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgba(248, 224, 248, 0.067);
+    font-family: Comfortaa;
+}
+
+.flexboxHotelDetails {
+    display: flex;
+    flex-direction: row;
+    background-color: #8676a9;
+    color: white;
+}
+
+/* Hotels Section */
+
+.hotel p {
+    font-weight: bold;
+}
+
+.pricebold {
+    font-weight: bold;
+    font-size: large;
+}
+
+.pricesmall {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.hotelimage {
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hoteldetailscontainer2a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hoteldetailscontainer2b {
+    display: flex;
+    flex-direction: column;
+    background-color: #8676a9;
+}
+
+.listContainer {
+    background-color: #8676a9;
+}
+
+.booknowdiv {
+    background-color: #8676a9;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/* end of Hotels Section */
 
 /* This is the css code for the advanced navigation */
 

@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/form.js"></script>
 </head>
 
 <body>
@@ -20,9 +22,10 @@
         <main>
             <!-- SCREEN 1 -->
             <section id="contact">
-                <h2>Venusian Oasis Resort in Venus</h2>
+                <h2>Hotel Neptune on Planet Neptune</h2>
                 <p>2 guest/s | 24Oct - 28Oct</p>
 
+<section id="formAll">
                 <div id="form">
                     <h3>Contact Details</h3>
                     <input type="email" placeholder="Email Here" id="email">
@@ -38,18 +41,18 @@
                     <div id="nameContainer">
 
                         <div id="firstName">
-                            <h4>FirstName</h4>
+                            <h4>First Name</h4>
                             <input type="text" id="name">
                         </div>
                         <div id="lastName">
-                            <h4>LastName</h4>
+                            <h4>Last Name</h4>
                             <input type="text" id="lstName">
                         </div>
 
                     </div>
 
-
-                    <h4>Date of Birth</h4>
+                    
+                    <h4 id="dob">Date of Birth</h4>
                     <div id="dobContainer">
 
                         <div>
@@ -70,6 +73,9 @@
 
                     </div>
                 </section>
+
+
+            </section>
 
 
                 <div id="luxPackage">
@@ -96,26 +102,26 @@
 
                     </div>
 
-
-                    <h4>Expiry Date</h4>
-
                     <div id="dobContainer">
+                        <div id="expo">
+                            <h4 id="exp">Expiry Date</h4>
+                            <div id="threebox">
+                                <div>
+                                    <input type="number" id="dateBirth1">
+                                </div>
 
-                        <div>
-                            <input type="number" id="dateBirth1">
+                                <div>
+                                    <input type="number" id="dateBirth2">
+                                </div>
+
+                                <div>
+                                    <input type="number" id="dateBirth3">
+                                </div>
+                            </div>
                         </div>
-
-                        <div>
-                            <input type="number" id="dateBirth2">
-                        </div>
-
-                        <div>
-                            <input type="number" id="dateBirth3">
-                        </div>
-
                         <div id="code">
                             <h4>Security Code</h4>
-                            <input type="number">
+                            <input id="sec"  type="number">
                         </div>
 
                     </div>
@@ -123,14 +129,14 @@
 
             <section id="form4">
                 <h3>Details</h3>
-                <h3><g>Total Cost 44000</g></h3>
-                <h4>Travel Fare £500</h4>
+                <h3 id="bold">Total Cost: £5603.99</h3>
+                <h4>Travel Fare £259.99</h4>    
 
 
             </section>
 
 
-            <div id="submit"><a href="">Confirm</a></div>
+            <div id="submit"><a href="bookingConfirm.html">Confirm</a></div>
 
 
 
