@@ -418,29 +418,29 @@ ul {
 /* This section contains the divs for hiding and showing the different pages */
 
 #homepagesection {
-    display: show;
+    width: 100%;
 }
 
 #showplanetsection {
-    display: none;
+    width: 100%;
 }
 
 #hotelsection {
-    display: none;
+    width: 100%;
 }
 
 #bookingformsection {
-    display: none;
+    width: 100%;
 }
 
 #bookingconfirmationsection {
-    display: none;
+    width: 100%;
 }
 
 #currentbookingsection {
-    display: none;
+    width: 100%;
 }
 
 #profilesection {
-    display: none;
+    width: 100%;
 }
