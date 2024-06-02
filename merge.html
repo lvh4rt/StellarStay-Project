@@ -20,6 +20,17 @@
     } );
     
     $( document ).ready(function() {
+        $('#homepagesection').hide();
+        $('#showplanetsection').hide();
+        $('#hotelsection').hide();
+        $('#bookingformsection').hide();
+        $('#bookingconfirmationsection').hide();
+        $('#currentbookingsection').hide();
+        $('#profilesection').hide();
+        $('#lowernavbar').hide();
+        $('#headersection').hide();
+
+    $('.Exitsplashpage').click(function(){
         $('#homepagesection').show();
         $('#showplanetsection').hide();
         $('#hotelsection').hide();
@@ -27,8 +38,10 @@
         $('#bookingconfirmationsection').hide();
         $('#currentbookingsection').hide();
         $('#profilesection').hide();
+        $('#headersection').show();
         $('#lowernavbar').show();
-    
+        $('#splashpage').hide()
+    });
 
     $('.Showhomepage').click(function(){
         $('#homepagesection').show();
@@ -111,6 +124,15 @@
     <h3>Go Beyond Earth; Sleep Among the Stars</h3>
 </header>
 </section>
+
+<section id="splashpage" class="splashpagebg">
+    <img src="img/logo.png" alt="logo" height="250" width="250">
+    <a href="#" class="Exitsplashpage">
+        <h1> Prepare for a adventure that is out of this world!</h1> <br>
+        <h1> Blast Off!</h1>
+    </a>
+</section>
+
 
 <!-- This is the start of the Homepage section, this div will be visible first on loading -->
 <!-- This is also the advanced navigation box, it allows for more specific navigation -->

@@ -475,3 +475,10 @@ ul {
     text-align: center;
     margin: auto;
 }
+
+.splashpagebg {
+    background-image: url('img/StarrySky.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
