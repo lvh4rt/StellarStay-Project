@@ -255,6 +255,9 @@ background-color: #695B88;
 }
 
 
+
+
+
 /* current bookings */
 
 #pic {
@@ -364,6 +367,12 @@ body {
     margin: 1.4rem;
 }
 
+.bulletPoints{
+    padding-left: 3.5rem;
+    background-color: #CCC0E5;
+    margin: 0 1.4rem 2rem 1.4rem;
+}
+
 .hoteldetailscontainer2a {
     display: flex;
     flex-direction: row;
@@ -375,7 +384,7 @@ body {
 .hoteldetailscontainer2b {
     display: flex;
     flex-direction: column;
-    background-color: #8676a9;
+    background-color: #EEECF9;
 }
 
 .listContainer {
@@ -383,13 +392,14 @@ body {
 }
 
 .booknowdiv {
-    background-color: #8676a9;
+    background-color: #0A0D4B;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 25px;
     color: white;
     justify-content: center;
-    justify-items: center;
+    display: flex;
+    padding: 1rem 0 1rem 0;
 }
 
 ul {
@@ -399,6 +409,7 @@ ul {
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
+    padding: 1rem 0 1rem 0;
 }
 
 /* end of Hotels Section */
