@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/form.js"></script>
+
 
     <script>
     $( function() {
@@ -125,31 +127,17 @@
 </header>
 </section>
 
-<section id="splashpage" style="background-image: url(img/StarrySkypre.png); background-size: cover; background-repeat: no-repeat; background-position:">
-    <img src="img/logowhite.png" alt="logo" height="150" width="150" style="margin: auto; display: block;">
+<section id="splashpage">
+
+    <img id="splashlogo" src="img/logowhite.png" alt="logo" height="150" width="150" style="margin: auto; display: block;">
     <a href="#" class="Exitsplashpage">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <div class="splashdiv">
-        <h1>Prepare for a adventure that is out of this world! <br>
+        <h1>Prepare for an adventure that is out of this world! <br><br>
         Blast Off!</h1>
-        <br>
-        LEGAL DISCLAIMER;This experience is provided by Stellar Stays Inc, we do not claim responsiblity for any incidents that occur during space travel, neither do we claim to run any of the flights we offer. We also do not claim liability for any lost luggage, time dilation, severe bodily mutation, alien abductions or space pirate attacks that occur during your flights, by reading this you waive any rights to litigation.
         </div>
     </a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </section>
 
 
@@ -157,50 +145,51 @@
 <!-- This is also the advanced navigation box, it allows for more specific navigation -->
 <section id="homepagesection">
     <form>
-        <div class="advnavboxvert">
+        <div class="advnavboxvert">                
+            <h2>Book your travels now</h2>
             <div class="advnavboxhorizontal">
-                <div>
+                <div class="dest">
                     <label for="advbkfrom"> From</label> <br>
                     <input type="datetime" id="from" name="advbkfrom"><br> <br>
                     <label for="advbkto"> To</label> <br>
                     <input type="datetime" id="to" name="advbkto">
                 </div>
-                <div>
-                    <p>From: <br><input type="text" id="datepickerFrom"></p> <br>
-                    <p>To: <br><input type="text" id="datepickerTo"></p>
+                <div class="calendar">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="55px" viewBox="0 -960 960 960" width="55px" fill="#5f6368"><path d="M224.62-120q-27.62 0-46.12-18.5Q160-157 160-184.62v-510.76q0-27.62 18.5-46.12Q197-760 224.62-760h70.76v-89.23h43.08V-760h286.16v-89.23h40V-760h70.76q27.62 0 46.12 18.5Q800-723 800-695.38v510.76q0 27.62-18.5 46.12Q763-120 735.38-120H224.62Zm0-40h510.76q9.24 0 16.93-7.69 7.69-7.69 7.69-16.93v-350.76H200v350.76q0 9.24 7.69 16.93 7.69 7.69 16.93 7.69ZM200-575.39h560v-119.99q0-9.24-7.69-16.93-7.69-7.69-16.93-7.69H224.62q-9.24 0-16.93 7.69-7.69 7.69-7.69 16.93v119.99Zm0 0V-720-575.39Zm280 181.54q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.57 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.19 9.19 21.57 0 12.39-9.19 21.58-9.2 9.19-21.58 9.19Zm-160 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.57 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.19 9.19 21.57 0 12.39-9.19 21.58-9.2 9.19-21.58 9.19Zm320 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.57 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.19 9.19 21.57 0 12.39-9.19 21.58-9.2 9.19-21.58 9.19ZM480-240q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.58 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.2 9.19 21.58 0 12.39-9.19 21.58Q492.38-240 480-240Zm-160 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.58 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.2 9.19 21.58 0 12.39-9.19 21.58Q332.38-240 320-240Zm320 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.58 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.2 9.19 21.58 0 12.39-9.19 21.58Q652.38-240 640-240Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="55px" viewBox="0 -960 960 960" width="55px" fill="#5f6368"><path d="M224.62-120q-27.62 0-46.12-18.5Q160-157 160-184.62v-510.76q0-27.62 18.5-46.12Q197-760 224.62-760h70.76v-89.23h43.08V-760h286.16v-89.23h40V-760h70.76q27.62 0 46.12 18.5Q800-723 800-695.38v510.76q0 27.62-18.5 46.12Q763-120 735.38-120H224.62Zm0-40h510.76q9.24 0 16.93-7.69 7.69-7.69 7.69-16.93v-350.76H200v350.76q0 9.24 7.69 16.93 7.69 7.69 16.93 7.69ZM200-575.39h560v-119.99q0-9.24-7.69-16.93-7.69-7.69-16.93-7.69H224.62q-9.24 0-16.93 7.69-7.69 7.69-7.69 16.93v119.99Zm0 0V-720-575.39Zm280 181.54q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.57 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.19 9.19 21.57 0 12.39-9.19 21.58-9.2 9.19-21.58 9.19Zm-160 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.57 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.19 9.19 21.57 0 12.39-9.19 21.58-9.2 9.19-21.58 9.19Zm320 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.57 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.19 9.19 21.57 0 12.39-9.19 21.58-9.2 9.19-21.58 9.19ZM480-240q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.58 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.2 9.19 21.58 0 12.39-9.19 21.58Q492.38-240 480-240Zm-160 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.58 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.2 9.19 21.58 0 12.39-9.19 21.58Q332.38-240 320-240Zm320 0q-12.38 0-21.58-9.19-9.19-9.19-9.19-21.58 0-12.38 9.19-21.58 9.2-9.19 21.58-9.19 12.38 0 21.58 9.19 9.19 9.2 9.19 21.58 0 12.39-9.19 21.58Q652.38-240 640-240Z"/></svg>
                 </div>
             </div>
-           <div class="advnavboxhorizontal">
-            <div>
-                <label for="selectdestination"> Destination</label> <br>
-                <select id="planetselect" name="selectdestination" size="1">
-                    <option value="mercury">Mercury</option>
-                    <option value="venus">Venus</option>
-                    <option value="mars">Mars</option>
-                    <option value="jupiter">Jupiter</option>
-                    <option value="saturn">Saturn</option>
-                    <option value="uranus">Uranus</option>
-                    <option value="neptune">Neptune</option>
-                    <option value="pluto">Pluto</option>
-                </select>
-            </div>
-            <div>
-                <label for="passengernum"> Passengers</label> <br>
-                <input type="number" id="passnum" name="passengernum">
-            </div>
-            <div>
-                <label for="selectclass"> Class</label> <br>
-                <select id="classselect" name="selectclass" size="1">
-                    <option value="1st">1st Class</option>
-                    <option value="2nd">2nd Class</option>
-                    <option value="3rd">3rd Class</option>
-                    <option value="steerage">Steerage</option>
+           <div class="advnavboxhorizontal1">
+                <div class="pad">
+                    <label for="selectdestination"> Destination</label> <br>
+                    <select id="planetselect" name="selectdestination" size="1">
+                        <option value="mercury">Mercury</option>
+                        <option value="venus">Venus</option>
+                        <option value="mars">Mars</option>
+                        <option value="jupiter">Jupiter</option>
+                        <option value="saturn">Saturn</option>
+                        <option value="uranus">Uranus</option>
+                        <option value="neptune">Neptune</option>
+                        <option value="pluto">Pluto</option>
+                    </select>
+                </div>
+                <div class="pad">
+                    <label for="passengernum"> Passengers</label> <br>
+                    <input type="number" id="passnum" name="passengernum">
+                </div>
+                <div class="pad">
+                    <label for="selectclass"> Class</label> <br>
+                    <select id="classselect" name="selectclass" size="1">
+                        <option value="1st">1st Class</option>
+                        <option value="2nd">2nd Class</option>
+                        <option value="3rd">3rd Class</option>
+                        <option value="steerage">Steerage</option>
 
-                </select>
-            </div>
+                    </select>
+                </div>
 
            </div>
-           <p class="Showbookingformpage" style="text-align: center;"> Book Now! </p>
+           <p class="Showbookingformpage buttonhome" > Book Now! </p>
         </div>
         </form>
         <hr>
@@ -218,12 +207,12 @@
                         </a
                     
                         
-                        <div class="Showplanetpage">
+                    <div class="Showplanetpage">
                         <a href="#" class="Showplanetpage">
-                        <div class="indPlanet">
-                            <img src="img/venus.png" alt="A stylised representation of Venus">
-                            <h3> Venus</h3>
-                        </div>
+                            <div class="indPlanet">
+                                <img src="img/venus.png" alt="A stylised representation of Venus">
+                                <h3> Venus</h3>
+                            </div>
                         </a>
 
                         <a href="#" class="Showplanetpage">
@@ -234,10 +223,10 @@
                         </a>
 
                         <a href="#" class="Showplanetpage">
-                        <div class="indPlanet">
-                            <img src="img/jupiter.png" alt="A stylised representation of Jupiter">
-                            <h3> Jupiter</h3>
-                        </div>
+                            <div class="indPlanet">
+                                <img src="img/jupiter.png" alt="A stylised representation of Jupiter">
+                                <h3> Jupiter</h3>
+                            </div>
                         </a>
                     </div>
 
@@ -372,185 +361,213 @@
 </section>
 </a>>
 </section>
+
 <!-- This is where planets end and Hotel page begins -->
-<section id="hotelsection">
 
-<img src="img/sun-city-camp-wadi-rum.jpg" alt="A sci fi desert hotel room" class="hotelimage">
+<section id="hotelsection" class="marshotelsection">
 
-<h1> Meduesae Fossae Motel</h1>
+    <img src="img/HotelExample.jpg" alt="A sci fi image of a hotel room" class="hotelimage">
 
-<p class="hotelp"> Enjoy our wonderful hotel. Choose us to be your basecamp for your expedition on the Red Planet!</p>
-<p class="hotelp"> Located in the Meduesae Fossae volcanic formation, our rooms come with a magniicent view of the landscape formed during Mar's Amazonion period</p>
-<p class="hotelp"> We straddle the highland-lowland region of Mars near the Tharsis and Elysium volcanic zones.</p>
-<p class="hotelp"> We are also within close commuting distance to 5 of Mar's quadrangles, Amazonis, Tharsis, Memnonia, Elysium and Aeolius</p>
-<p class="hotelp"> Our rooms are stocked with a king size bed, minifridge, Hologram deivce, full ensuite bathroom and all the other amenities one could expect from a well appointed and modern hotel room</p>
+    <div class="hotelInfo">
+        <h2> Meduesae Fossae Motel</h2><br>
+    
+        <p class="hotelp">
+            Experience unparalled luxury and tranquility at the Venusian Oasis Resort,
+            where futuristic design blends seamlessly with the breathtaking landscape of Venus.
+        </p>
+        <br>
+        <p class="hotelp">
+            Indulge in panoramic views from deluxe suites or luxurious villas, rejuvanate
+            at the world-class spa, and savor gourmet cuisine overlooking the mesmerising
+            Venusian sky.
+        </p>
+        <br>
+        <p class="hotelp">
+            Whether exploring the wonders of Venus or simply relaxing by the infinity
+            pool, every moment at our resort offers a truly out-of-this-world experience.
+        </p>
+    
+    </div>
+    
+    <img src="img/sun-city-camp-wadi-rum.jpg" alt="A sci fi desert hotel room" class="hotelimage">
+    
+    <div class="hotelInfo">
+      <h2> Meduesae Fossae Motel</h2>
+    
+      <p class="hotelp"> Enjoy our wonderful hotel. Choose us to be your basecamp for your expedition on the Red Planet!</p>
+      <p class="hotelp"> Located in the Meduesae Fossae volcanic formation, our rooms come with a magniicent view of the landscape formed during Mar's Amazonion period</p>
+      <p class="hotelp"> We straddle the highland-lowland region of Mars near the Tharsis and Elysium volcanic zones.</p>
+      <p class="hotelp"> We are also within close commuting distance to 5 of Mar's quadrangles, Amazonis, Tharsis, Memnonia, Elysium and Aeolius</p>
+      <p class="hotelp"> Our rooms are stocked with a king size bed, minifridge, Hologram deivce, full ensuite bathroom and all the other amenities one could expect from a well appointed and modern hotel room</p>
+    </div>
+    
+    <!--List begins-->
+    
+    <div class="bulletPoints">
+      <ul>
+          <li>Sleeps 4</li>
+          <li>1 Double Bed & 2 Single Beds</li>
+          <li>Air Conditioning</li>
+          <li>Flat-screen TV</li>
+          <li>Private Bathroom</li>
+          <li>City Centre</li>
+      </ul>
+    </div>
+    
+    <div class="hoteldetailscontainer2a">
+     
+      <div class="hoteldetailscontainer2b">
+        Price; <br>
+        <span class="pricebold"> £769</span> <span class="pricesmall"> per night.</span>
+      </div>
+    
+      <div class="hoteldetailscontainer2b">
+        Rating <br>
+        <img src="img/vector-black-isolated-five-stars-customer-feedback-concept_189959-1082_transparent.png" alt="The start rating" height="50" width="100">
+      </div>
+      
+    </div>
+    
 
-<!--List begins-->
+    <a href="#" class="booknowdiv Showbookingformpage">
+        <div class="bookingbuttondiv">
+            <h2>Book Now!</h2>
+        </div>
+    </a> 
 
-<div style="background-color: #CCC0E5;">
-  <ul>
-      <li>Sleeps 4</li>
-      <li>1 Double Bed & 2 Single Beds</li>
-      <li>Air Conditioning</li>
-      <li>Flat-screen TV</li>
-      <li>Private Bathroom</li>
-      <li>City Centre</li>
-  </ul>
-</div>
-
-<div class="hoteldetailscontainer2a">
-
-  <div class="hoteldetailscontainer2b">
-    Price <br>
-    <span class="pricebold"> £769</span> <span class="pricesmall"> per night.</span>
-  </div>
-
-  <div class="hoteldetailscontainer2b">
-    Rating <br>
-    <img src="img/vector-black-isolated-five-stars-customer-feedback-concept_189959-1082_transparent.png" alt="The start rating" height="50" width="100">
-  </div>
-
-</div>
-
-<br>
-<br>
-
-<a href="#" class="Showbookingformpage">
-<div class="bookingbuttondiv">
-    <h1>Book Now!</h1>
-</div>
-</a>
 <br>
 <br>
 <br>
 </section>
 <!-- This is the end of the hotel section, this is the start of the booking section -->
 <section id="bookingformsection">
-<section class="formstyle">
-<div class="container">
-    <main>
-        <!-- SCREEN 1 -->
-        <section id="contact">
-            <h2>Hotel Neptune on Planet Neptune</h2>
-            <p>2 guest/s | 24Oct - 28Oct</p>
-</section>
-        <section id="formAll">
-            <div id="form">
-                <h3>Contact Details</h3>
-                <input type="email" placeholder="Email Here" id="email">
-                <h3>Phone Number</h3>
-                <div id="numberContainer">
-                    <input type="number" id="numNation" maxlength="3">
-                    <input type="number" maxlength="11" id="number">
-                </div>
-            </div>
+    <div class="container">
+        <main>
+            <!-- SCREEN 1 -->
+            <section id="contact">
+                <h2>Hotel Neptune on Planet Neptune</h2>
+                <p>2 guest/s | 24Oct - 28Oct</p>
 
-            <section id="form2">
-                <h3>Guest 1</h3>
-                <div id="nameContainer">
-
-                    <div id="firstName">
-                        <h4>First Name</h4>
-                        <input type="text" id="name">
+            <section id="formAll">
+                <div id="form">
+                    <h3>Contact Details</h3>
+                    <input type="email" placeholder="Email Here" id="email">
+                    <h3>Phone Number</h3>
+                    <div id="numberContainer">
+                        <input type="number" id="numNation" maxlength="3">
+                        <input type="number" maxlength="11" id="number">
                     </div>
-                    <div id="lastName">
-                        <h4>Last Name</h4>
-                        <input type="text" id="lstName">
-                    </div>
-
                 </div>
 
+                <section id="form2">
+                    <h3>Guest 1</h3>
+                    <div id="nameContainer">
 
-                <h4 id="dob">Date of Birth</h4>
-                <div id="dobContainer">
+                        <div id="firstName">
+                            <h4>First Name</h4>
+                            <input type="text" id="name">
+                        </div>
+                        <div id="lastName">
+                            <h4>Last Name</h4>
+                            <input type="text" id="lstName">
+                        </div>
 
-                    <div>
-                        <input type="number" id="dateBirth1">
                     </div>
 
-                    <div>
-                        <input type="number" id="dateBirth2">
-                    </div>
+                    
+                    <h4 id="dob">Date of Birth</h4>
+                    <div id="dobContainer">
 
-                    <div>
-                        <input type="number" id="dateBirth3">
-                    </div>
+                        <div>
+                            <input type="number" id="dateBirth1">
+                        </div>
 
-                    <div id="addPerson">
-                        <h4>Add Person<span>‎ +</span></h4>
-                    </div>
+                        <div>
+                            <input type="number" id="dateBirth2">
+                        </div>
 
-                </div>
+                        <div>
+                            <input type="number" id="dateBirth3">
+                        </div>
+
+                        <div id="addPerson">
+                            <h4>Add Person<span>‎ +</span></h4>
+                        </div>
+
+                    </div>
+                </section>
+
+
             </section>
 
 
-</section>
-
-
-            <div id="luxPackage">
-                Add our luxury travel to package for only £259.99?
-
-            </div>
-
-
-
-
-
-            <section id="form3">
-                <h3>Card Details</h3>
-                <div id="nameContainer">
-
-                    <div id="firstName">
-                        <h4>Card Number</h4>
-                        <input type="text" id="name">
-                    </div>
-                    <div id="lastName">
-                        <h4>Name On Card</h4>
-                        <input type="text" id="lstName">
-                    </div>
+                <div id="luxPackage">
+                    Add our luxury travel to package for only £259.99?
 
                 </div>
 
-                <div id="dobContainer">
-                    <div id="expo">
-                        <h4 id="exp">Expiry Date</h4>
-                        <div id="threebox">
-                            <div>
-                                <input type="number" id="dateBirth1">
-                            </div>
 
-                            <div>
-                                <input type="number" id="dateBirth2">
-                            </div>
 
-                            <div>
-                                <input type="number" id="dateBirth3">
+
+
+                <section id="form3">
+                    <h3>Card Details</h3>
+                    <div id="nameContainer">
+
+                        <div id="firstName">
+                            <h4>Card Number</h4>
+                            <input type="text" id="name">
+                        </div>
+                        <div id="lastName">
+                            <h4>Name On Card</h4>
+                            <input type="text" id="lstName">
+                        </div>
+
+                    </div>
+
+                    <div id="dobContainer">
+                        <div id="expo">
+                            <h4 id="exp">Expiry Date</h4>
+                            <div id="threebox">
+                                <div>
+                                    <input type="number" id="dateBirth1">
+                                </div>
+
+                                <div>
+                                    <input type="number" id="dateBirth2">
+                                </div>
+
+                                <div>
+                                    <input type="number" id="dateBirth3">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="code">
-                        <h4>Security Code</h4>
-                        <input id="sec"  type="number">
-                    </div>
+                        <div id="code">
+                            <h4>Security Code</h4>
+                            <input id="sec"  type="number">
+                        </div>
 
-                </div>
+                    </div>
+                </section>
+
+            <section id="form4">
+                <h3>Details</h3>
+                <h3 id="bold">Total Cost: £5603.99</h3>
+                <h4>Travel Fare £259.99</h4>    
+
+
             </section>
 
-        <section id="form4">
-            <h3>Details</h3>
-            <h3 id="bold">Total Cost: £5603.99</h3>
-            <h4>Travel Fare £259.99</h4>
+
+            <div id="submit">
+                <a href="#" class ="Showbookingconfirmationpage">Confirm</a>
+            </div>
 
 
-        </section>
-
-
-        <div class="bookingbuttondiv"><a href="#" class="Showbookingconfirmationpage"><h1>Confirm Booking</h1></a></div>
-        <br>
-        <br>
-        <br>
-    </section>
+        </div>
+        </main>
 </section>
+
 <!-- This is the end of the booking section, this is the start of the booking confirmation section -->
 <section id="bookingconfirmationsection">
 <section class="thankYou">

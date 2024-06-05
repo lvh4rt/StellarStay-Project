@@ -423,7 +423,37 @@ ul {
     flex-direction: column;
     background-color: #0A0D4B;
     color: #EEECF9;
+    padding: 0.8rem;
     
+}
+
+.dest p {
+    margin: 0.5rem;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 2rem 2rem 1.2rem 4rem;
+}
+
+.pad {
+    margin: 0.5rem;
+}
+
+.advnavboxvert h2{
+    padding: 1rem;
+    margin: auto;
+}
+
+.buttonhome {
+    text-align: center;
+    background-color: #695B88;
+    padding: 0.8rem;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
 }
 
 .advnavboxhorizontal {
@@ -433,6 +463,14 @@ ul {
     margin-left: 5%;
     margin-right: 5%;
     width: 50%;
+}
+
+.advnavboxhorizontal1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.7rem;
+
 }
 
 /* This section contains the divs for hiding and showing the different pages */
@@ -470,21 +508,268 @@ ul {
 }
 
 .bookingbuttondiv{
-    background-color: #8776AC;
     width: 50%;
     text-align: center;
     margin: auto;
+    font-size: 13px;
 }
 
 a {text-decoration: none;}
 
-.splashdiv{
-    background-color: #EEECF9;
-    color: #0A0D4B;
+.splashdiv{    
+    background-color: rgba(169, 169, 169, 0.5);
+    color: #ffffff;
     text-align: center;
+
 }
+
+#splashlogo {
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.splashdiv h1 {
+    font-size: 27px;
+    padding: 2rem;
+}
+
+#splashpage {
+    background-image: url(../img/planetsplash.jpg);    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
 
 .formstyle{
     text-align: center;
     background-color: #CCC0E5;
 }
+
+
+/* FORM STYLES */
+
+main{padding: 20px;
+    padding-bottom: 50px;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 3px;
+    background: no;
+}
+
+label{background: none;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h3,h2,h4{
+    background:none;
+    font-family: Comfortaa;
+}
+
+#contact h2, #contact p {
+    padding: 0.7rem;
+}
+
+
+span{font-size: 20px;}
+
+#form{
+    padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+    font-family: Comfortaa;
+    background-color: #EEECF9;
+    border-radius: 20px;
+}
+
+#form h3 , #form2 h3{
+    margin: 0.6rem;
+}
+
+#email{
+    width: 94%;
+    margin: 0.6rem;
+}
+
+#number{width: 82.8%;}
+
+#numNation{
+    width: 7%;
+    margin: 0.3rem 0.3rem 0.3rem 0.6rem;
+}
+
+
+
+
+#form2{
+    padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+    font-family: Comfortaa;
+    background-color: #EEECF9;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+#name{
+    width: 90%;
+
+}
+#lstName{
+    width: 100%;
+}
+    
+
+
+#nameContainer{
+    display:flex;
+    flex-direction: row;
+    margin: 0.6rem;
+}
+
+#nameContainer h4{
+    margin: 0.6rem 0.1rem;
+}
+
+
+
+
+
+#form3{
+    padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+    font-family: Comfortaa;
+    background-color: #EEECF9;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+#form3 h3 {
+    margin: 0.6rem;
+}
+
+#exp {
+    margin: 0.6rem;    
+}
+
+#exp {
+    display: flex;
+    flex-direction: column;   
+}
+
+#threebox {
+    display: flex;
+    flex-direction: row;  
+}
+
+#dobContainer{
+    display:flex;
+}
+
+#dob {
+    margin:0.6rem ;
+}
+
+#dateBirth1{
+    width: 1.7rem;
+    margin: 0.4rem 0.4rem 0.4rem 0.6rem;
+}
+
+#dateBirth2{    
+    width: 1.7rem;
+    margin: 0.4rem;
+}
+
+#dateBirth3{
+    width: 1.7rem;
+    margin: 0.4rem;
+}
+
+#code h4{
+    padding: 0.6rem;
+    margin-bottom: 0.3rem;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+#sec{
+    margin: 0 0.7rem;
+}
+
+#addPerson{
+    background-color: #8676A9;
+    color: white;
+    padding: 0.3rem;
+    width: 55%;
+    margin: 0 0.4rem;
+    border-radius: 20px;
+}
+
+#addPerson h4,span{
+    margin-left: 10px;
+}
+
+
+#form3 h3{margin-bottom:10px;}
+
+
+#luxPackage{
+    background-color: #43305C;
+    color: white;
+    font-family: Comfortaa;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+#form4{
+    padding: 0.8rem;
+    font-family: Comfortaa;
+    background-color: #CCC0E5;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#form4 h3, #form4 h4 {
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#submit{
+padding: 10px;
+background-color:#0A0D4B;
+font-size: 30px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+#submit a{color: #ffffff;
+    text-decoration: none;
+}
+
+#submit:hover {
+    background-color: #1e215f;
+  }
+
+
+.duplicated-form{margin-top: 10px;}
+
+.duplicated-form #addPerson{display: none;}
+
+#id1{margin-top: 10px;}
